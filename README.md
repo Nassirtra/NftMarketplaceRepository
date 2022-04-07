@@ -1,27 +1,70 @@
-# Next.js + Tailwind CSS Example
+# Rapport du projet WEB FULL STACK :
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## 1/ APPLICATION :
 
-## Preview
+Application web 3.0, il s'agit d'un marketplace des jetons lié au blockchain. 
+Création des jetons et collections de jetons et les mettre en vente et permettre aux autres utilisateurs de les acheter ou même vendre leurs propres jetons dans cette marketplace en utilisant third web SDK. 
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## 2/ STACK UTILISE :
+[NextJS](https://nextjs.org/) --> Framework utilisé
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+[Tailwind CSS](https://tailwindcss.com/) --> Pour le styling
 
-## Deploy your own
+[Sanity](https://www.sanity.io/) --> Notre base donnée, qui pous permettre de manipuler notre data pour stocker nos utilisateurs et les informations de la marketplace
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+[ThirdWeb](https://v1.thirdweb.com/) --> SDK lié au web 3.0 du blockchain (création des module et collections)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+[MetaMask](https://metamask.io/) --> Portefeuille (WALLET), sert à ajouter des modules dans le thirdWeb ainsi que pour faire la transactions des NFTs
 
-## How to use
+[Faucets](https://faucets.chain.link/) --> Plateforme nous permet d'avoir quelques Etheriums gratuits pour les tests.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+[Vercel](https://vercel.com/) --> Deploiment de l'application
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## 3/ ARCHITECTURE :
+![image](https://user-images.githubusercontent.com/61312131/162222021-bc463522-e66d-4fb5-a60a-c90812d33715.png)
+![image](https://user-images.githubusercontent.com/61312131/162222332-53343767-575e-41dd-a890-551c77e8e9c0.png)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 4/ DEPLOIMENT : 
+
+* Depoilement à été fait en utilisant Vercel 
+
+![image](https://user-images.githubusercontent.com/61312131/162229332-a9a449a0-9006-4584-a1b6-8401e95bf1ac.png)
+
+## 5/ DIFFERENTS INTERFACES DE L'APPLICATION :
+
+* Page Login : Pour y'accéder, il faut se connecter avec notre propre Wallet
+
+![image](https://user-images.githubusercontent.com/61312131/162230240-54ec657c-5fae-4c4f-a8ab-ff3182ea9c31.png)
+
+* Page d'accueil : Pour naviguer à travers les differents pages comme la page Collection 
+
+ ![image](https://user-images.githubusercontent.com/61312131/162232816-fd89bd0b-7841-4772-a667-a8ecb1845c6e.png)
+ 
+ * Page Collection des NFT : C'est la page qui nous permettons de naviguer entre les NFTs (Achat/vente)
+
+ ![image](https://user-images.githubusercontent.com/61312131/162233167-f36482b3-6c99-4618-b26f-edf0feee261a.png)
+
+ * Page NFTCard : C'est la page qui contient les infomrations spécifiques par rapport un NFT choisi
+
+![image](https://user-images.githubusercontent.com/61312131/162233864-8b21fea4-5404-446e-a3d9-6ae6132a9aa4.png)
+
+ * Déclancher un achat d'un NFT VIA METAMASK 
+
+![image](https://user-images.githubusercontent.com/61312131/162237931-4ce7493b-f98d-46cd-81ee-c47ddb084ac8.png)
+
+* Historique & confirmation d'achat via METAMASK
+
+![image](https://user-images.githubusercontent.com/61312131/162238714-772e7e51-2746-4eb2-a6eb-3a2ffda9e50e.png)
+
+
+## 4/ CE QUE J'AI APPRIS ?
+
+*Découverte du WEB 3.0 lié au blockchain
+
+*Découverte de nomreuses librairie et SDK (ThirdWeb/Sanity/Metamask/Faucets)
+
+*Premier utilisation du TailWind CSS
+
+*Utilisation du NextJS Approfondie
+
+*Etre en autonomie
