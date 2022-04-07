@@ -16,10 +16,11 @@ const style = {
 }
 
 export default function Home() {
+  //import the UseWeb3 to give acces to the connect wallet and the adress
   const { address, connectWallet} = useWeb3()
 
   //Toast FUNCTION for notification when user Logged IN ***
-  const welcomeUser = (userName, toastHandler = toast) =>{
+  const welcomeUser = (userName :string  , toastHandler = toast) =>{
     toastHandler.success(
       `Welcome back${userName !== 'Unnamed' ? ` ${userName}` : ''}!`,
       {
@@ -32,6 +33,7 @@ export default function Home() {
   }
 
   //FUCNTION : Automatically add user if does not exist in sanity by (id = wallet address)
+  //Uses (IIFE) Immediately Invoked Functional Expressions ()
   useEffect(() =>{
     if (!address) return
     ;(async () =>{
@@ -47,7 +49,7 @@ export default function Home() {
     })() 
   }, [address])
 
-  //Conditional rendering if logged in***
+  //Conditional rendering if user logged in***
   return (
     <div className={style.wrapper}>
     <Toaster position='top-center' reverseOrder= {false} background-color='black' />

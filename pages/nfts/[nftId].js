@@ -32,7 +32,7 @@ const Nft = () => {
     return sdk.getNFTModule('0xEEa177AaE79F8966C954E3e1D6aD369a4b30b094')
   }, [provider])
 
-  // get all NFTs in the collection
+  // get all NFTs in the collection (if id url = id.getall return the image of that NFT)
   useEffect(() => {
     if (!nftModule) return
     ;(async () => {
@@ -51,7 +51,7 @@ const Nft = () => {
       provider.getSigner(),
       'https://eth-rinkeby.alchemyapi.io/v2/BonHaWSn4X6-USPskQs34BfOnNq-WpGS'
     )
-
+      //marketplace cotrat adress for return
     return sdk.getMarketplaceModule(
       '0xc7311e38bbEB421c27793Da4128E7BE86733d64c'
     )

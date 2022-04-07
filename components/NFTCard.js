@@ -36,6 +36,7 @@ const NFTCard = ({nftItem, title, listings}) =>{
 
 
     return (
+        //when you click it takes you the detail view
         <div
             className={style.wrapper}
             onClick={() => {
