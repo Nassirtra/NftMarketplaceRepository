@@ -1,26 +1,28 @@
+//array object
+
 export const dummyEvents = [
     {
-      price: 17,
-      from: '0xQazi',
-      to: '0xDavid',
+      price: 0.0001,
+      from: 'Nassir',
+      to: 'TestUser',
       date: '4 months ago',
     },
     {
-      price: 17,
-      from: '0xQazi',
-      to: '0xDavid',
+      price: 0.0001,
+      from: 'Nassir',
+      to: 'TestUser',
       date: '4 months ago',
     },
     {
-      price: 17,
-      from: '0xQazi',
-      to: '0xDavid',
+      price: 0.0001,
+      from: 'Nassir',
+      to: 'TestUser',
       date: '4 months ago',
     },
     {
-      price: 17,
-      from: '0xQazi',
-      to: '0xDavid',
+      price: 0.0001,
+      from: 'Nassir',
+      to: 'TestUser',
       date: '4 months ago',
     },
   ]
