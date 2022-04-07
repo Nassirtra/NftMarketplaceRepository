@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useMemo, useState } from'react'
 import {useRouter} from 'next/router'
-import Link from 'next/Link'
+import Link from 'next/link'
 import {useWeb3} from '@3rdweb/hooks'
 import {client} from '../../lib/sanityClient'
 import {ThirdwebSDK} from '@3rdweb/sdk'
