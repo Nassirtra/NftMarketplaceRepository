@@ -57,7 +57,7 @@ Création des jetons et collections de jetons et les mettre en vente et permettr
 ![image](https://user-images.githubusercontent.com/61312131/162238714-772e7e51-2746-4eb2-a6eb-3a2ffda9e50e.png)
 
 
-## 4/ CE QUE J'AI APPRIS ?
+## 6/ CE QUE J'AI APPRIS ?
 
 *Découverte du WEB 3.0 lié au blockchain
 
